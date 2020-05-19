@@ -49,7 +49,6 @@ function cjp_speaker_session_custom_fields() {
         'name'    => 'talk_date',
         'type'    => 'date_picker',
         'display_format' => 'm/d/yy',
-        'return_format' => 'm/d/yy',
         'first_day' => '0',
         'required' => 'true',
       ),
