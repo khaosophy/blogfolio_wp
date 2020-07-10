@@ -75,12 +75,30 @@ function cjp_speaker_session_custom_fields() {
         'type' => 'text',
       ),
       array (
+        // does the talk HAVE a recording?
+        'key' => 'cjp_talk_is_recorded',
+        'label' => 'Is there a recording?',
+        'name' => 'talk_is_recorded',
+        'type' => 'true_false',
+        'message' => 'Check here for true'
+      ),
+      array (
         // link to recording
         'key' => 'cjp_talk_recording',
         'label' => 'Recording URL',
         'name' => 'talk_recording',
         'type' => 'text',
       ),
+      array (
+        // other useful information
+        'key' => 'cjp_talk_resources',
+        'label' => 'Additional Resources',
+        'name' => 'talk_resources',
+        'type' => 'wysiwyg',
+        'media_upload' => 0,
+        'tabs' => 'visual',
+        'toolbar' => 'basic',
+      )
     )
   ));
 }
