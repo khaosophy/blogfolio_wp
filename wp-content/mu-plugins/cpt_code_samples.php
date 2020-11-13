@@ -1,7 +1,9 @@
 <?php
-/*
-Plugin Name: Casper's Code Samples
-*/
+/**
+ * Plugin Name: Casper's Code Samples
+ * Description: This mu-plugin handles the creation of a custom post type by the same name.
+ */
+
 // Add Custom Post Type for Code Samples
 function cjp_code_sample_post_type(){
 	$labels = array(

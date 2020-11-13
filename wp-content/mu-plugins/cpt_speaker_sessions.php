@@ -1,7 +1,9 @@
 <?php
-/*
-Plugin Name: Casper's Speaker Sessions
-*/
+/**
+ * Plugin Name: Casper's Speaker Sessions
+ * Description: This mu-plugin handles the creation of a custom post type by the same name.
+ */
+
 // Add Custom Post Type for Speaker Sessions 
 function cjp_speaker_session_post_type(){
 	$labels = array(
