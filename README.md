@@ -19,3 +19,13 @@ This is where we manage the WordPress code that powers the content displayed in 
 3. Connect to the server where the WordPress instance is running.
 4. Copy over the appropriate files (will likely be in mu-plugins).
 5. Check it on live!
+
+## Dependencies
+
+The front end is being updated to use GraphQL instead of the REST API, but in order for WordPress to run a GraphQL server, you need the following plugins:
+
+1. [WP GraphQL](https://wordpress.org/plugins/wp-graphql/)
+2. [WP Gratsby](https://wordpress.org/plugins/wp-gatsby/)
+3. [WPGraphQL for Advanced Custom Fields](https://wpgraphql.com/acf)
+
+Unfortunately WPGraphQL for Advanced Custom Fields is not yet available on the WordPress Repository, so it will need to be uploaded via FTP.
